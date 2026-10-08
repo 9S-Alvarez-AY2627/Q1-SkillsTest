@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackstone Bistro </title>
+    <style>
+        body {
+            background-color: firebrick;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-image: url("Q1-PA3\ IMAGES/pizza.jpg");
+            background-size: cover;
+            background-position: center;
+            color: peru;
+            text-align: center;
+            padding: 30px 10px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            margin: 10px auto;
+            background-color: peru;
+            padding: 10px;
+        }
+        fieldset {
+            border: 1px khaki;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        legend {
+             color: khaki;
+        }
+        input[type="text"]
+        input[type="email"]
+        textarea {
+            background-color: black;
+            border: 1px khaki;
+        }
+        .bottons {
+            margin-top: 15px;
+        }
+        .bottons button {
+            background-color: khaki;
+            color: khaki;
+            border: none;
+            padding: 5px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Blackstone Bistro Pizza-on-Demand</div>
+
+    <div class="container">
+        <p>Our 12" wood-fired pizzas are available for delivery. Build your own custom pizza and we'll deliver it within an hour.</p>
+
+        <form>
+            <fieldset>
+                <legend>Your Information</legend>
+                Name: <input type="text" name="name"><br><br>
+                Address: <input type="text" name="address"><br><br>
+                Mobile Number: <input type="text" name="mobile"><br><br>
+                Email: <input type="text" name="email"><br><br>
+                Delivery Instructions:<br> <textarea name="instructions" rows="3" cols="25"></textarea>
+            </fieldset>
+
+            <h3 style="color: khaki;"> Design your dream pizza</h3>
+
+            <fieldset>
+                <legend>Pizza Specifications</legend>
+            <fieldset>
+            <legend>Crust (Choose one):</legend>
+            <input type="radio" name="crust" value="classic"> Classic White<br>
+            <input type="radio" name="crust" value="multigrain"> Multigrain<br>
+            <input type="radio" name="crust" value="cheese-stuffed"> Cheese-stuffed<br>
+            <input type="radio" name="crust" value="gluten-free"> Gluten-free<br>
+            </fieldset>
+
+            <fieldset>
+            <legend>Topping (Choose as many as you want):</legend>
+            <input type="checkbox" name="topping" value="red"> Red Sauce<br>
+            <input type="checkbox" name="topping" value="white"> White Sauce<br>
+            <input type="checkbox" name="topping" value="mozzarella"> Mozzarella Cheese<br>
+            <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+            <input type="checkbox" name="topping" value="mushrooms"> Mushrooms<br>
+            <input type="checkbox" name="topping" value="peppers"> Peppers<br>
+            <input type="checkbox" name="topping" value="pineapple"> Pineapple<br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Number (How many pizza):</legend>
+                <select name="number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+            </fieldset>
+
+            </fieldset>
+
+            <div class="buttons">
+                <button type="submit">Bring me a pizza!</button>
+                <button type="reset">Let's do it again!</button>
+            </div>
+        
+        </form>
+
+            <p style="font-size: 14px; margin-top: 15px;"> 2026 Chloe Anne D. Alvarez 9-Sapphire</p>
+         </div>
+    
+</body>
+</html>
